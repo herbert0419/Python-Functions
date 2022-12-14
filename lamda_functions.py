@@ -29,3 +29,13 @@ numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 # find the sum of squares of even numbers
 # Steps: 
         # filter -- even --->map --(square) -->reduce(sum)
+
+# IIFE: Immediately invoke function expression
+
+print((lambda x:x+3)(2)) # Short hand Script
+
+# Technically: 
+a = lambda x:x+3
+print(a(3)) # passing the x value explicitly
+
+print((lambda x,y:x+y)(4,5)) # adding two numbers using iffe
