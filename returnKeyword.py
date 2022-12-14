@@ -23,6 +23,7 @@ print(getAgerr(15))
 
 def retx(age):
     age=age+2
+    # return 13,16 #returns tuple 
     return 13
-    return 14 # This doesn't get executed as it is not like assignment operators & python recognizes line by line
+    return 14 # This doesn't get executed as it is not like assignment operators & python recognizes line by line, return is a control statement
 print(retx(5))
